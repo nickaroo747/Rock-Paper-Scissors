@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<script type="text/javascript" src ="javascript.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Rock Paper Scissors</title>
+
+</head>
+	<body>
+		<div id="container">
+			<div id="gametitle">rock paper scissors</div>
+			<hr>
+			<div id="communicationbox"><div id="commboxtype"></div></div>
+			<hr>
+			<div class = "buttonsdiv">
+				<button onclick="console.log(nameArray[randomPick()])" class = "buttons" id="button1" type="button"><span class="clicktext">ROCK</span></button>
+
+				<button onclick="console.log(nameArray[randomPick()])" class = "buttons" id="button2" type="button"><span class="clicktext">PAPER</span></button>
+				
+
+				<button onclick="console.log(nameArray[randomPick()])" class = "buttons" id="button3" type="button"><span class="clicktext">SCISSORS</span></button>
+				
+			</div>
+			<hr>
+			<div class ="scoreimages">ScoreImages
+				<img>player
+				<img>computer
+			</div>
+			<div id="ScoreNumbers">
+				<div class="scorebox"><div id="playerscore"></div></div>
+				<div class="scorebox"><div id="computerscore"></div></div>
+			</div>
+			<hr>
+			<div id="completebox">Winner/loser</div>
+		</div>
+	</body>
+</html>

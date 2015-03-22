@@ -1,0 +1,26 @@
+
+
+function placeText (){
+	document.getElementById("name").innerHTML= "Pick Rock Paper or Scissors";
+};
+
+
+
+/*function myDeclaredFunc(greeting){
+	return greeting + "I was created by a function";
+}
+
+var myExpressedFunc = function(greeting){
+	return greeting + "I was created by a function expression";
+}
+
+console.log(myExpressedFunc("Hello, "));
+
+var letMeUseAnotherFunction = function(myFunc){
+	console.log(myFunc("dude,yeah!"));
+};
+
+letMeUseAnotherFunction(5);
+letMeUseAnotherFunction("dude");
+letMeUseAnotherFunction([1,3,5,7]);
+letMeUseAnotherFunction(myDeclaredFunc);*/
