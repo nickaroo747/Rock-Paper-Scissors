@@ -12,27 +12,41 @@
 		<div id="container">
 			<div id="gametitle">rock paper scissors</div>
 			<hr>
-			<div id="communicationbox"><div id="commboxtype"></div></div>
+				<div id="box1">
+					<div id="box1A"></div>
+					<div id="box1B"></div>
+				</div>
+
+				<div id="box2">
+					<div id="box2A"></div>
+					<div id="box2B"></div>
+				</div>
 			<hr>
 			<div class = "buttonsdiv">
-				<button onclick="console.log(nameArray[randomPick()])" class = "buttons" id="button1" type="button"><span class="clicktext">ROCK</span></button>
+				<button onclick="pickRock(); randomPick();" class = "buttons" id="button1"><span class="clicktext">ROCK</span></button>
 
-				<button onclick="console.log(nameArray[randomPick()])" class = "buttons" id="button2" type="button"><span class="clicktext">PAPER</span></button>
+				<button onclick="pickPaper(); randomPick();" class = "buttons" id="button2"><span class="clicktext">Paper</span></button>
 				
 
-				<button onclick="console.log(nameArray[randomPick()])" class = "buttons" id="button3" type="button"><span class="clicktext">SCISSORS</span></button>
+				<button onclick="pickScissors(); randomPick();" class = "buttons" id="button3"><span class="clicktext">Scissors</span></button>
 				
 			</div>
 			<hr>
-			<div class ="scoreimages">ScoreImages
-				<img>player
-				<img>computer
+			<div class ="scoreimages">
 			</div>
 			<div id="ScoreNumbers">
-				<div class="scorebox"><div id="playerscore"></div></div>
-				<div class="scorebox"><div id="computerscore"></div></div>
+					<div id = "box3">
+						<div id="scorebox1"></div>
+						<div id="scorebox2"></div>
+					</div>
+					
+					<div id = "box4">
+						<div id="playerscore"></div>
+						<div id="computerscore"></div>
+					</div>
+			</div>				
 			</div>
-			<hr>
+				<hr>
 			<div id="completebox">Winner/loser</div>
 		</div>
 	</body>

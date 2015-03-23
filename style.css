@@ -29,22 +29,68 @@ html{
 }
 
 hr{
-	margin:0px;
+	margin:0 auto;
+	width: 1000px;
 }
 
-#communicationbox{
-	height: 150px;
+#box1{
+	height: 75px;
+	width: 1000px;
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 49pt;
 	font-family: arial;
 	color: #95a5a6;
 	text-align: center;
+	display: inline-flex;
+}
+
+#box2{
+	height: 100px;
+	width: 1000px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 49pt;
+	font-family: arial;
+	color: white;
+	text-align: center;
+	display: inline-flex;
+}
+
+#box1A{
+	width: 500px;
+	font-size: 33pt;
+	margin-top: 25px;
+}
+
+#box1B{
+	width: 500px;
+	font-size: 33pt;
+	margin-top: 25px;
+}
+
+#box2A{
+	width: 500px;
+	height: 50px;
+	font-size: 27pt;
+	margin-top: 20px;
+}
+#box2B{
+	width: 500px;
+	height: 50px;
+	font-size: 27pt;
+	margin-top: 20px;
 }
 
 #commboxtype{
 	margin-top: 53px;
 	font-size: 35pt;
+}
+
+#playercomputerpicktitle{
+	margin-top: 53px;
+	font-size: 35pt;
+	display: inline-block;
 }
 
 .buttonsdiv{
@@ -78,6 +124,7 @@ button:hover {
 #ScoreNumbers{
 	width: 1000px;
 	display: inline-block;
+	margin-bottom: 20px;
 }
 
 .scorebox{
@@ -91,6 +138,61 @@ button:hover {
 	color: white;
 	text-align: center;
 	float: left;
+	display: inline-block;
+}
+
+#box3{
+	height: 75px;
+	width: 1000px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 49pt;
+	font-family: arial;
+	color: #95a5a6;
+	text-align: center;
+	display: inline-flex;
+}
+
+#box4{
+	height: 75px;
+	width: 1000px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 49pt;
+	font-family: arial;
+	color: #95a5a6;
+	text-align: center;
+	display: inline-flex;
+}
+
+#scorebox1{
+	width: 500px;
+	font-size: 33pt;
+	margin-top: 25px;
+}
+
+#scorebox2{
+	width: 500px;
+	font-size: 33pt;
+	margin-top: 25px;
+}
+
+#playerscore{
+	width: 500px;
+	height: 50px;
+	font-size: 27pt;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+#computerscore{
+	width: 500px;
+	height: 50px;
+	font-size: 27pt;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: white;
 }
 
 #completebox{
