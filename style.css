@@ -69,13 +69,13 @@ hr{
 	margin-top: 25px;
 }
 
-#box2A{
+#playerMove{
 	width: 500px;
 	height: 50px;
 	font-size: 27pt;
 	margin-top: 20px;
 }
-#box2B{
+#computerMove{
 	width: 500px;
 	height: 50px;
 	font-size: 27pt;
@@ -177,7 +177,7 @@ button:hover {
 	margin-top: 25px;
 }
 
-#playerscore{
+#playerScore{
 	width: 500px;
 	height: 50px;
 	font-size: 27pt;
@@ -186,7 +186,7 @@ button:hover {
 	color: white;
 }
 
-#computerscore{
+#computerScore{
 	width: 500px;
 	height: 50px;
 	font-size: 27pt;

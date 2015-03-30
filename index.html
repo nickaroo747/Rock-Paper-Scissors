@@ -2,7 +2,7 @@
 <html>
 <head>
 	
-	<script type="text/javascript" src ="javascript.js"></script>
+	
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<title>Rock Paper Scissors</title>
@@ -13,22 +13,21 @@
 			<div id="gametitle">rock paper scissors</div>
 			<hr>
 				<div id="box1">
-					<div id="box1A"></div>
-					<div id="box1B"></div>
+					<div id="box1A">Player Picks:<br></div>
+					<div id="box1B">Computer Picks:<br></div>
 				</div>
 
 				<div id="box2">
-					<div id="box2A"></div>
-					<div id="box2B"></div>
+					<div id="playerMove"></div>
+					<div id="computerMove"></div>
 				</div>
 			<hr>
 			<div class = "buttonsdiv">
-				<button onclick="pickRock(); randomPick();" class = "buttons" id="button1"><span class="clicktext">ROCK</span></button>
+				<button  class = "buttons" id="rock"><span class="clicktext">ROCK</span></button>
 
-				<button onclick="pickPaper(); randomPick();" class = "buttons" id="button2"><span class="clicktext">Paper</span></button>
+				<button  class = "buttons" id="paper"><span class="clicktext">Paper</span></button>
 				
-
-				<button onclick="pickScissors(); randomPick();" class = "buttons" id="button3"><span class="clicktext">Scissors</span></button>
+				<button class = "buttons" id="scissors"><span class="clicktext">Scissors</span></button>
 				
 			</div>
 			<hr>
@@ -36,18 +35,19 @@
 			</div>
 			<div id="ScoreNumbers">
 					<div id = "box3">
-						<div id="scorebox1"></div>
-						<div id="scorebox2"></div>
+						<div id="scorebox1">Player Score:</div>
+						<div id="scorebox2">Computer Score:</div>
 					</div>
 					
 					<div id = "box4">
-						<div id="playerscore"></div>
-						<div id="computerscore"></div>
+						<div id="playerScore"></div>
+						<div id="computerScore"></div>
 					</div>
 			</div>				
 			</div>
 				<hr>
 			<div id="completebox">Winner/loser</div>
 		</div>
+		<script type="text/javascript" src ="javascript.js"></script>
 	</body>
 </html>
